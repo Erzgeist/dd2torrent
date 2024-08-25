@@ -7,13 +7,13 @@ on:
 env:
   name: "Android Studio and SDK Tools"
   comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  url: "https://datanodes.to/e9jl3qbjga1n/Shadow-Warrior_2.rar"
+  file_name: "Shadow-Warrior_2.rar"
+  piece_size: Auto # Check the README.md for recommended piece size
       
 jobs:
   create:
-    runs-on: ubuntu-20.04
+    runs-on: windows11
     steps:
       - name: Install mktorrent
         run: sudo apt-get install mktorrent
